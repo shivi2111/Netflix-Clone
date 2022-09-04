@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background{
+  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)),url('./components/netico.jpg');
+  background-size: cover;
+  /* background-color: black; */
+  /* opacity: 0.1; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  /* background-color: rebeccapurple; */
+  position: absolute;
+  top: 0;
+  padding: 50px 50px;
+  height: 50px;
+  width: 90vw;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left:20px ;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h1{
+  color: red;
+  font-size: 45px;
+  
+}
+
+.button{
+  cursor: pointer;
+}
+.button:hover{
+  transition: ease 0.1s;
+  transform: scale(1.02);
 }

@@ -1,0 +1,81 @@
+.label-language svg{
+    width: 18px;
+    margin-right: -27px;
+    margin-bottom: -2px;
+  }
+  
+  .language{
+    width: 120px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 26px;
+  }
+  .language option{
+    background-color: black;
+  }
+  .language svg{
+    width: 10px;
+  }
+  
+  .btn{
+    margin-left: 2vw;
+    /* width: 50px; */
+    height: 40px;
+    font-size: 17px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    /* cursor: pointer; */
+    /* font-family:'Times New Roman', Times, serif; */
+  }
+  .btn:hover{
+    background-color: rgba(177, 48, 48, 0.438);
+  }
+  
+  .content{
+    max-width: 700px;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .content p{
+    font-size: 50px;
+    font-weight: bolder;
+  
+  }
+  .sumit{
+    display: flex;
+    /* background-color: red; */
+    height: 50px;
+    margin-top: 30px;
+  }
+  .sumit .em{
+    font-size: 25px;
+    height: 50px;
+    width: 400px;
+    border: none;
+  }
+  
+  .sumit .bt{
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+
+  .bt:hover{
+    background-color: rgba(177, 48, 48, 0.884);
+  }
