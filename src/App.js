@@ -2,9 +2,10 @@ import './App.css';
 import FirstScreen from './components/FirstScreen';
 import SecondScreen from './components/SecondScreen';
 import ThirdScreen from './components/ThirdScreen';
-import ForthScreen from './components/forth';
-import Landing from './components/Landing';
+import ForthScreen from './components/ForthScreen';
 import FifthScreen from './components/FifthScreen';
+import Landing from './components/Landing';
+
 
 
 function App() {

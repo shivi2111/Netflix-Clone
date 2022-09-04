@@ -1,6 +1,6 @@
 
 .background{
-  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)),url('./components/netico.jpg');
+  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)),url('./netico.jpg');
   background-size: cover;
   /* background-color: black; */
   /* opacity: 0.1; */
